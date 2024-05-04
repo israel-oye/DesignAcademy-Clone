@@ -1,0 +1,97 @@
+:root{
+  --font-Roboto: "Roboto", sans-serif;
+  --pallet-color-1: #88E7D7;
+  --pallet-color-2: #FFF;
+  --pallet-color-3: #21295C;
+  --pallet-color-4: #1B3B6F;
+  --pallet-color-5: #065A82;
+}
+
+body {
+  font-family: var(--font-Roboto, sans-serif);
+}
+
+li.nav-item a{
+  font-family: var(--font-Roboto);
+  font-style: normal;
+}
+
+li.nav-item a:hover{
+  border: 5px var(--pallet-color-1) solid;
+}
+
+/* TEXT COLOURS */
+.green-text {
+  color: var(--pallet-color-1);
+}
+
+.blue-1-text {
+  color: var(--pallet-color-3);
+}
+
+.blue-2-text {
+  color: var(--pallet-color-4);
+}
+
+.blue-3-text {
+  color: var(--pallet-color-5);
+}
+
+
+/* IMAGE STYLES */
+.banner-img {
+height: 26.25rem;
+}
+
+.logo-img {
+  height: 70px;
+}
+
+
+/* NAV STYLING */
+.explore-nav {
+  border: 5px var(--pallet-color-5) solid;
+  color: var(--pallet-color-5);
+  font-weight: 700;
+}
+
+.explore-nav:hover {
+  color: var(--pallet-color-2);
+  background-color: var(--pallet-color-5);
+  border: none !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* FONTS */
+.roboto-light {
+  font-family: var(--font-Roboto);
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: var(--font-Roboto);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: var(--font-Roboto);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: var(--font-Roboto);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media (width <= 1096px){
+  .banner-img {
+    height: 19rem;
+    }
+}
